@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contactus.css" />
+</head>
+<body>
+  <nav class="nav-bar"> 
+    <div class="upper-div">
+            <div class="info-email">info@bookmypg.co.in</div>
+            <div class="right-navbar">
+                <div class="get-it-on-gplay-logo"></div>
+                <div class="login-signup">
+                  <span class="top-text"><a href="/login.html">Login</a> / <a href="/sign-up.html">Signup</a></span>
+                  <br>
+                  <span class="bottom-text">(For PG Finder)</span>
+                </div>
+            </div>
+    </div>
+    <div class="lowerdiv">
+            <div class="left-navbar">
+              <div class="pg-logo"></div>
+                    <div class="nav-elements">
+
+                      <a href="/index.html">Home</a>
+                      <a href="/About us.html">About</a>
+                      <a href="#">For PG Owners</a>
+                      <a href="/contactus.html">Contact Us</a>
+                      <a href="/partnerwithus.html">Partner Us</a>
+                      <a href="#">Blog</a>
+                    </div>
+            </div>
+            <div class=booknow>
+              <button class="booknowbtn"><a class="booknow-a" href="/booknow.html">BOOK NOW</a></button>
+            </div>
+    </div>        
+    
+</nav>
+  <section class="contactus">
+    <div class="contactus-title">
+      <h2>Its Easy To Find Us</h2>
+      <hr class="hr" />
+      <div class="contactus-para">
+        <p class="paragraph">
+          Please Feel Free to Contact us for any PG Booking related Issues,
+          Complaints and for any support needed for moving to the PG you have
+          Booked through us.
+        </p>
+      </div>
+    </div>
+
+    <div class="ape-form-div">
+      <div class="leftdiv">
+        <div class="address">
+          <strong>ADDRESS</strong><br />
+          9-20, Bethel Nagar St,<br />
+          Industrial Estate, Perungudi,<br />
+          Chennai, Tamil Nadu 600096, India<br /><br />
+         
+        </div>
+
+        <div class="phone" style="margin-top: 15px;">
+          <strong>PHONE</strong><br />
+          +91-8939654691<br />
+          +91-9843212345
+        </div>
+
+        <div class="email" style="margin-top: 30px;">
+          <strong>EMAIL</strong><br />
+          support@bookmypg.co.in<br />
+          help@bookmypg.co.in
+        </div>
+      </div>
+
+      <form id="contactForm" class="form-grid">
+        <input type="text" id="name" placeholder="Name" />
+        <span class="error-msg" id="name-error"></span>
+      
+        <input type="email" id="email" placeholder="Email" />
+        <span class="error-msg" id="email-error"></span>
+      
+        <input type="text" id="mobile" placeholder="Mobile" />
+        <span class="error-msg" id="mobile-error"></span>
+      
+        <input type="text" id="city" placeholder="City" />
+        <span class="error-msg" id="city-error"></span>
+      
+        <select id="enquiry">
+          <option value="">Enquiry Type</option>
+          <option>Booking Related</option>
+          <option>Complaint</option>
+          <option>Support Request</option>
+        </select>
+        <span class="error-msg" id="enquiry-error"></span>
+      
+        <textarea id="message" placeholder="Message"></textarea>
+        <span class="error-msg" id="message-error"></span>
+      
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      
+  </section>
+  <script src="/contactus.js"></script>
+</body>
+</html>

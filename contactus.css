@@ -1,0 +1,276 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fafafc;
+}
+
+.nav-bar{
+  height:9.0625rem;
+  width: 100%;
+  background-color:#019fe9;
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
+ 
+  
+}
+.upper-div{
+  display: flex;
+  
+  background-color:#019fe9;
+  height: 62px;
+  
+}
+
+
+.info-email{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left:13%;
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+  margin-right:245px;
+  margin-bottom: 10px;
+}
+
+.get-it-on-gplay-logo{
+  height: 40px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  margin-top:15px;
+  margin-right:1%;
+  background-image: url('Screenshot\ \(175\).png');
+  border-radius: 5px;
+  
+}
+
+.login-signup {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.login-signup a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-signup a:hover {
+  text-decoration: underline;
+}
+
+.lowerdiv{
+  background-color:#014073;
+  height:83px;
+ 
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.left-navbar{
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+ padding-right:0 50px;
+
+}
+.pg-logo {
+  margin-left: 30px;
+  height: 80px;
+  width: 200px; 
+  background-color: transparent;
+  background-image: url('/Screenshot\ \(176\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex; 
+  align-items: center; 
+}
+.booknow{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+
+}
+.booknowbtn{
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  color:#333;
+}
+.booknowbtn:hover {
+  background-color: #96cce5;
+  color: white;
+}
+.nav-elements{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left:500px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.08rem;
+}
+a:hover{
+background-color:#019fe9 ;
+
+}
+.booknow-a{
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+
+color:#333;
+}
+.contactus-title {
+  margin-top: 10vh;
+  margin-left: 8vw;
+  width: 45vw;
+  color: #014073;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color:#014073;
+}
+
+.hr {
+  width: 8vw;
+  background-color:#014073;
+  margin-left: 0;
+  height: 0.3vh;
+}
+
+.ape-form-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 8vw;
+  gap: 50px;
+}
+
+.leftdiv {
+  flex: 1;
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #014073;
+}
+.phone{
+  margin-top:3vh;
+}
+
+.form-section {
+  flex: 1;
+  max-width: 600px;
+  
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top:30px;
+  
+}
+
+.form-grid input,
+.form-grid select {
+  border: none;
+  border-bottom: 2px solid #014073;
+  padding: 10px 5px;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  width: 100%;
+}
+
+.form-grid select {
+  grid-column: span 2;
+}
+
+.form-grid input::placeholder {
+  color: #014073;
+}
+
+@media (max-width: 768px) {
+  .ape-form-div {
+    flex-direction: column;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid select {
+    grid-column: span 1;
+  }
+}
+.form-grid textarea {
+  grid-column: span 2;
+  border: none;
+  border-bottom: 2px solid #014073;
+  padding: 10px 5px;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  color: #014073;
+  font-family: inherit;
+}
+
+.form-grid textarea::placeholder {
+  color: #014073;
+}
+.submit-btn {
+  grid-column: span 2;
+  padding: 12px 20px;
+  background-color: #014073;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+}
+
+.submit-btn:hover {
+  background-color: #608cb2;
+}
+
+
+.error-msg {
+  grid-column: span 2;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+  font-family: inherit;
+}
+
+

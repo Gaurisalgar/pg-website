@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafc;
+}
+
+.nav-bar{
+    height:9.0625rem;
+    width: 100%;
+    background-color:#019fe9;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+.upper-div{
+    display: flex;
+    
+    background-color:#019fe9;
+    height: 62px;
+    
+}
+
+
+.info-email{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left:13%;
+}
+
+.right-navbar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+    margin-right:245px;
+    margin-bottom: 10px;
+}
+
+.get-it-on-gplay-logo{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top:15px;
+    margin-right:1%;
+    background-image: url('Screenshot\ \(175\).png');
+    border-radius: 5px;
+    
+}
+
+.login-signup {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  
+  .login-signup a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .login-signup a:hover {
+    text-decoration: underline;
+  }
+
+.lowerdiv{
+    background-color:#014073;
+    height:83px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-navbar{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   padding-right:0 50px;
+
+}
+.pg-logo {
+    margin-left: 30px;
+    height: 80px;
+    width: 200px; 
+    background-color: transparent;
+    background-image: url('/Screenshot\ \(176\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+    align-items: center; 
+  }
+
+  .booknow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+  
+  }
+  .booknowbtn{
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    color:#333;
+  }
+  .booknowbtn:hover {
+    background-color: #96cce5;
+    color: white;
+  }
+.nav-elements{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left:500px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.08rem;
+}
+a:hover{
+  background-color:#019fe9 ;
+  
+}
+.booknow-a{
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  color:#333;
+}
+h1{
+    color:rgb(10, 10, 79);
+    margin-left:14vw;
+    margin-top: 15vh;
+
+}
+.section-1{
+    margin-left:14vw;
+    margin-top: 4vh;
+    font-size: 1.2rem;
+    width:45% ;
+}
+.section-1 p{
+    color: #333;
+}
+hr{
+    width:5%;
+    height: 3px;
+    background-color: #014073;
+    margin-left: 16vw;
+}
+hr:hover{
+    width: 10%;
+    transition: width 0.5s ease-in-out;
+}
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    
+    margin-left: 13vw;
+    flex-wrap: wrap;
+  }
+  
+  .section-para1-img {
+    flex: 1 1 45%;
+  }
+  
+  .section-para1-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .para1 {
+    flex: 1 1 50%;
+  }
+  
+  .para1-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .para1 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  .hr1{
+    
+    height: 3px;
+    background-color: #014073;
+    margin-left:20vw;
+  }
+  
